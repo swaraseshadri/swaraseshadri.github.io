@@ -14,12 +14,12 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, sans-serif;
     }
     body {
       background: var(--bg);
       color: var(--text);
       overflow-x: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
     }
     nav {
       position: fixed;
@@ -58,6 +58,7 @@
       opacity: 0;
       transform: translateY(20px);
       transition: 0.8s ease;
+      font-family: 'Brush Script MT', cursive;
     }
     .hero p {
       font-size: 1.2rem;
@@ -126,15 +127,23 @@
   </nav>
 
   <div class="hero">
-    <h1 id="hero-title">Hi! I'm Swara!</h1>
-    <p id="hero-desc">Welcome to my website! I'm a who loves creating cool things on the web.</p>
+    <h1 id="hero-title">Swara Seshadri</h1>
+    <!-- <p id="hero-desc">Welcome to my website!</p> -->
   </div>
 
   <section id="about" class="fade-in">
     <h2>About Me</h2>
-    <p>
-      Write a short description about yourself here. What do you do? What do you love? What makes you unique?
-    </p>
+     <p>
+                    Hi I'm Swara! Welcome to my website :)
+                    <br><br> I'm doing a B.S. in Computer Science at the University of 
+                    Washington, with minors in Political Science and Neural Engineering. 
+                      I'm also part of the Interdisciplinary Honors Program. 
+                      I'm passionate about using programming to bring my ideas to life, and 
+                      I thrive on applying CS to interdisciplinary challenges, collaborating in teams, and 
+                      turning complex, hands-on problems into tangible, impactful results.
+                      <br><br> When I'm not working, you'll probably find me singing, reading & writing, 
+                      doing martial arts, travelling or just generally finding fun new things to learn!
+                </p>
   </section>
 
   <section id="work" class="fade-in">
@@ -159,7 +168,7 @@
     // Hero animation
     window.addEventListener('load', () => {
       document.getElementById('hero-title').classList.add('visible');
-      document.getElementById('hero-desc').classList.add('visible');
+      // document.getElementById('hero-desc').classList.add('visible');
     });
 
     // Scroll reveal
