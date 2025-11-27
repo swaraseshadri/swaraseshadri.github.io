@@ -50,7 +50,7 @@
     }
     .hero-text h1 {
       font-family: 'Brush Script MT', cursive;
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 1.2;
       opacity: 0;
       transform: translateY(20px);
@@ -58,11 +58,12 @@
     }
     .hero-text h1 .first-name {
       display: block;
+      margin-left: 2rem;
       margin-bottom: 0.2rem;
     }
     .hero-text h1 .last-name {
       display: block;
-      margin-left: 2rem;
+      margin-left: 3rem;
     }
     .hero-image {
       flex: 1;
@@ -139,7 +140,7 @@
         font-size: 2.5rem;
       }
       .hero-text h1 .last-name {
-        margin-left: 1rem;
+        margin-left: 2rem;
       }
       .hero-image img {
         max-width: 300px;
