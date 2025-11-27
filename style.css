@@ -47,10 +47,11 @@
     .hero-text {
       flex: 1;
       text-align: left;
+      margin-left: 8rem;
     }
     .hero-text h1 {
       font-family: 'Brush Script MT', cursive;
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 1.2;
       opacity: 0;
       transform: translateY(20px);
